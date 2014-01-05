@@ -16,7 +16,7 @@ void Usage(int asked, char *argv0)
            "\t -o out_file - Output filename (default stdout)\n"
            "\t -i in_file - file to get input (default stdin)\n\n\n"
            "Example:\n"
-           "   $ arecord -D hw:0,1 -f S16_LE | %s -p `pidof raspivid` -d 1000\n"
+           "   $ arecord -D hw:1,0 -f S16_LE | %s -p `pidof raspivid` -d 1000\n"
       ,argv0, argv0);
 
    exit(-1);
