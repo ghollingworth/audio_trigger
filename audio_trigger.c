@@ -3,6 +3,7 @@
 #include <signal.h>
 #include <math.h>
 #include <getopt.h>
+#include <time.h>
 
 #define BUF_SIZE 1024
 
